@@ -1,0 +1,73 @@
+body {
+  background-color: #1a1a1a;
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.heading {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+#query {
+  color: #ccc;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  background-color: #333;
+  color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  color: #ccc;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 300px;
+  }
+
+  input[type="text"],
+  input[type="submit"],
+  button {
+    width: 100%;
+  }
+}
